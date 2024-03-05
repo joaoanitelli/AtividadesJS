@@ -1,8 +1,8 @@
 // Atividade 2
-const numero = parseInt(prompt("Insira um número"));
-let divisores = 0;
 
 function primo() {
+    const numero = parseInt(prompt("Insira um número"));
+    let divisores = 0;
     for (let i = 1; i <= numero; i++) {
         if (numero % i === 0) {
             divisores++;
@@ -15,3 +15,4 @@ function primo() {
         alert("Não é primo");
     }
 }
+primo()

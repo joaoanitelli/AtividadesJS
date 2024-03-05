@@ -1,6 +1,8 @@
 // Atividade 1
 
 function analisar() {
-    let variavel = document.getElementById('variavel');
-    alert(typeof variavel);
+    variavel = prompt("Insira uma tecla");
+    alert(typeof('variavel'));
 }
+
+analisar()
