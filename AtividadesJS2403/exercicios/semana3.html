@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 3</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="shortcut icon" href="../fateclogo.png" type="image/x-icon">
+</head>
+<body>
+    <a href="../index.html"><p class="voltar" style="font-size: 16px;">Voltar a página principal</p></a>
+    <p style="font-size: 24px;">João Pedro Anitelli Artero</p>
+    <h1><span id="dia"></span>, <span id="diadigito"></span> de <span id="mes"></span> de <span id="ano"></span></h1>
+    <div class="horas">
+        <h1><span id="horas"></span>:<span id="minutos">06</span>:<span id="segundos">17</span></h1>
+    </div>
+    <div class="frase">
+        <input id="texto" type="text" placeholder="Insira uma frase" required>
+        <input type="button" value="Verificar" onclick="verificarTexto()">
+    </div>
+    <p id="resultado-texto"></p>
+    <script src="../js/script.js" defer></script>
+</body>
+</html>
